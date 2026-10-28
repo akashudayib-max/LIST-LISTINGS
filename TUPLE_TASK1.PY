@@ -1,0 +1,9 @@
+num=(10,20,30,40)
+print(num)
+print(num[1])
+a,b,c,d=num
+print(a)
+a,b,*c=num
+print(a)
+print(b)
+print(c)
